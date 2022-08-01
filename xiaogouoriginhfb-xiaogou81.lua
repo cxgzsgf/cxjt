@@ -2,7 +2,7 @@
 --程序启动时会执行的事件
 --渐变色主题控制
 
-
+[远程代码]
 import "android.graphics.drawable.GradientDrawable"
 function 渐变(left_jb,right_jb,id)
   drawable = GradientDrawable(GradientDrawable.Orientation.TR_BL,{
@@ -1056,3 +1056,4 @@ function 缩放动画(view,startscale,endscale,time)
   animatorSetsuofang.play(scaleX).with(scaleY);
   animatorSetsuofang.start()
 end
+[远程代码]
